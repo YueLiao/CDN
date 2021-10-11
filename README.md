@@ -1,7 +1,7 @@
 # CDN
 Code for our NeurIPS 2021 paper "[Mining the Benefits of Two-stage and One-stage HOI Detection](https://arxiv.org/pdf/2108.05077.pdf)".
 
-Contributed by Aixi Zhang*, [Yue Liao*](liaoyue.net), [Si Liu](http://colalab.org/people), Miao Lu, Yongliang Wang, Chen Gao and Xiaobo Li.
+Contributed by Aixi Zhang*, [Yue Liao*](https://liaoyue.net/), [Si Liu](http://colalab.org/people), Miao Lu, Yongliang Wang, Chen Gao and Xiaobo Li.
 
 ![](paper_images/framework.png)
 
