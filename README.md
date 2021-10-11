@@ -202,18 +202,18 @@ python vsrl_eval.py vcoco.pickle
 ### HICO-DET
 ||Full (D)|Rare (D)|Non-rare (D)|Full(KO)|Rare (KO)|Non-rare (KO)|Download|
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|CDN-S (R50)| 31.44 | 27.39 | 32.64 | 34.09 | 29.63 | 35.42 | [model]() |
-|CDN-B (R50)| 31.78 | 27.55 | 33.05 | 34.53 | 29.73 | 35.96 | [model]() |
-|CDN-L (R101)| 32.07 | 27.19 | 33.53 | 34.79 | 29.48 | 36.38 | [model]() |
+|CDN-S (R50)| 31.44 | 27.39 | 32.64 | 34.09 | 29.63 | 35.42 | [model](https://drive.google.com/file/d/1-GuJ4FGTGJAktH2NVR6Qp_N0zimg7uRr/view?usp=sharing) |
+|CDN-B (R50)| 31.78 | 27.55 | 33.05 | 34.53 | 29.73 | 35.96 | [model](https://drive.google.com/file/d/1oGT_oGR_QiJuLqCcfGTTAh9v-wj2DhGL/view?usp=sharing) |
+|CDN-L (R101)| 32.07 | 27.19 | 33.53 | 34.79 | 29.48 | 36.38 | [model](https://drive.google.com/file/d/1SHR2wD4WIte5k1PkaHKg4hCVlu316oOw/view?usp=sharing) |
 
 D: Default, KO: Known object
 
 ### V-COCO
 || Scenario 1 | Scenario 2 | Download | 
 | :--- | :---: | :---: | :---: |
-|CDN-S (R50)| 61.68 | 63.77 | [model]() |
-|CDN-B (R50)| 62.29 | 64.42 | [model]() |
-|CDN-L (R101)| 63.91 | 65.89 | [model]() |
+|CDN-S (R50)| 61.68 | 63.77 | [model](https://drive.google.com/file/d/1qI-tZwSry4ZipkO05PMeZVkCi-IOMSDZ/view?usp=sharing) |
+|CDN-B (R50)| 62.29 | 64.42 | [model](https://drive.google.com/file/d/1lUGoIfqcizLyukYJwKm83CduWKQnuWc8/view?usp=sharing) |
+|CDN-L (R101)| 63.91 | 65.89 | [model](https://drive.google.com/file/d/1EAOMRr5ArQNKZm1fyQqC81EoOediV3rT/view?usp=sharing) |
 
 ## Citation
 Please consider citing our paper if it helps your research.
