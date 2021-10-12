@@ -1,0 +1,6 @@
+cython
+pycocotools
+torch==1.5.1
+torchvision==0.6.1
+scipy
+opencv-python
