@@ -227,7 +227,7 @@ Please consider citing our paper if it helps your research.
 ```
 
 ## License
-CDN is released under the MIT license. See [LICENSE](LICENSE) for additional details.
+CDN is released under the Apache 2.0 license. See [LICENSE](LICENSE) for additional details.
 
 ## Acknowledge
 Some of the codes are built upon [PPDM](https://github.com/YueLiao/PPDM), [DETR](https://github.com/facebookresearch/detr) and [QPIC](https://github.com/hitachi-rd-cv/qpic). Thanks them for their great works!
