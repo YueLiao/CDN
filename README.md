@@ -30,7 +30,7 @@ data
 ### V-COCO
 First clone the repository of V-COCO from [here](https://github.com/s-gupta/v-coco), and then follow the instruction to generate the file `instances_vcoco_all_2014.json`. Next, download the prior file `prior.pickle` from [here](https://drive.google.com/drive/folders/10uuzvMUCVVv95-xAZg5KS94QXm7QXZW4). Place the files and make directories as follows.
 ```
-qpic
+CDN
  |─ data
  │   └─ v-coco
  |       |─ data
