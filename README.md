@@ -182,7 +182,22 @@ python -m torch.distributed.launch \
 ```
 
 ### V-COCO
-For the official evaluation of V-COCO, a pickle file of detection results have to be generated. You can generate the file and then evaluate it as follows.
+Firstly, you need the add the following main function to the vsrl_eval.py in data/v-coco.
+```
+if __name__ == '__main__':
+  import sys
+
+  vsrl_annot_file = 'data/vcoco/vcoco_test.json'
+  coco_file = 'data/instances_vcoco_all_2014.json'
+  split_file = 'data/splits/vcoco_test.ids'
+
+  vcocoeval = VCOCOeval(vsrl_annot_file, coco_file, split_file)
+
+  det_file = sys.argv[1]
+  vcocoeval._do_eval(det_file, ovr_thresh=0.5)
+```
+
+Next, for the official evaluation of V-COCO, a pickle file of detection results have to be generated. You can generate the file with the following command. and then evaluate it as follows.
 ```
 python generate_vcoco_official.py \
         --param_path pretrained/vcoco_cdn_s.pth \
@@ -194,6 +209,7 @@ python generate_vcoco_official.py \
 
 cd data/v-coco
 python vsrl_eval.py vcoco.pickle
+
 ```
 
 
