@@ -116,6 +116,8 @@ python -m torch.distributed.launch \
         --freeze_mode 1 \
         --obj_reweight \
         --verb_reweight \
+        --lr 1e-5 \
+        --lr_backbone 1e-6 \
         --use_nms_filter
 ```
 
@@ -156,6 +158,8 @@ python -m torch.distributed.launch \
         --epochs 10 \
         --freeze_mode 1 \
         --verb_reweight \
+        --lr 1e-5 \
+        --lr_backbone 1e-6 \
         --use_nms_filter
 ```
 
